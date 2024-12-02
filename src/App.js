@@ -1,12 +1,10 @@
 import React from 'react';
-import './Styles/app.css'; // Import global styles
-import Navbar from './components/navbar';
-import Landingpage from './components/landingpage';  
+import Geeting from'./components/greeting';
+
 function App() {
 return (
 <div>
-<Navbar />
-<Landingpage />
+<Greeting name="umar"age={20} weight={50}/>
 </div>
 );
 }

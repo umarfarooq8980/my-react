@@ -1,7 +1,6 @@
-// src/components/ProfileCard.jsx
 import React from 'react';
 
-// ProfileCard component
+
 const ProfileCard = ({ name, age, occupation, location }) => {
   return (
     <div className="profile-card">

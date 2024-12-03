@@ -1,7 +1,7 @@
 // src/App.js
 import React from 'react';
-import ProfileCard from './components/profilecard'; // Import ProfileCard component
-import './App.css'; // Import styles
+import ProfileCard from './components/profilecard'; 
+import './App.css'; 
 
 const App = () => {
   const userDetails = {
@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div className="app">
       <h1>Profile Information</h1>
-      {/* Passing data as props to ProfileCard */}
+      
       <ProfileCard
         name={userDetails.name}
         age={userDetails.age}

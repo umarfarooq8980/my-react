@@ -32,8 +32,7 @@ function App() {
       <h2>Statistics</h2>
       <Statistics statistics={statistics} />
       
-      <h2>Messages</h2>
-      <Messages messages={messages} />
+      
     </div>
   );
 }

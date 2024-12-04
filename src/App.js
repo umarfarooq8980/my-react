@@ -1,7 +1,7 @@
 import React from "react";
 import UserProfile from "./components/UserProfile";
 import Statistics from "./components/Statistics";
-import Messages from "./components/Messages";
+
 
 function App() {
   const userData = {
@@ -18,11 +18,7 @@ function App() {
     activePercentage: ((45 / 54) * 100).toFixed(2),
   };
 
-  const messages = [
-    { id: 1, sender: "Admin", content: "Welcome Umar, glad to have you on board!", timestamp: "2024-12-04 10:00 AM" },
-    { id: 2, sender: "System", content: "Your account has been successfully verified.", timestamp: "2024-12-03 5:30 PM" },
-    { id: 3, sender: "Team", content: "Please update your profile details.", timestamp: "2024-12-02 2:15 PM" },
-  ];
+
 
   return (
     <div style={{ padding: "20px", fontFamily: "Arial" }}>

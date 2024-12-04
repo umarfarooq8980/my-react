@@ -7,7 +7,7 @@ function App() {
   
   const userData = {
     name: "Muhammad Umar Farooq",
-    email: "mfarooqalizai@gmail.com",
+    email: "24g-bcs784@student.agu.edu.pk",
     role: "Student",
     profilePicture: "https://miu.edu.ng/wp-content/uploads/2021/06/AdobeStock_113096046.jpg", // Placeholder for profile image
   };

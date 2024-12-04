@@ -5,18 +5,18 @@ import Statistics from "./components/Statistics";
 function App() {
   // User Data Object
   const userData = {
-    name: "Umar Farooq",
-    email: "mfarooqalizai@gmail.com",
-    role: "Engineer",
-    profilePicture: "https://via.placeholder.com/150", // Placeholder image URL
+    name: "Muhammad Umar Farooq ",
+    email: "umaraalizai@gmail.com",
+    role: "softwear engineer",
+    profilePicture: "https://via.placeholder.com/150", 
   };
 
-  // Statistics Data Object
+  
   const statistics = {
     totalUsers: 54,
     activeUsers: 45,
     newSignups: 10,
-    activePercentage: ((45 / 54) * 100).toFixed(2), // Calculating active percentage
+    activePercentage: ((45 / 54) * 100).toFixed(2), 
   };
 
   return (

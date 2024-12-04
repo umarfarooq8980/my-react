@@ -1,7 +1,6 @@
 import React from "react";
 
 function UserInfo({ userData }) {
-  // Role-specific colors
   const roleColors = {
     Engineer: "green",
     Administrator: "blue",

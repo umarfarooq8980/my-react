@@ -8,7 +8,7 @@ function App() {
     name: "Muhammad Umar Farooq ",
     email: "umaraalizai@gmail.com",
     role: "softwear engineer",
-    profilePicture: "https://via.placeholder.com/150", 
+    profilePicture: "https://www.mediaan.com/wp-content/uploads/2020/08/Software-Engineer-Blog-Featured-Image.jpg", 
   };
 
   
